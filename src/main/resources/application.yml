@@ -1,0 +1,10 @@
+
+server:
+  port: 8887
+spring:
+  application:
+    name: PHotelReservation
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://101.132.188.237:8080/LCloud/eureka/
